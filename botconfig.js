@@ -4,7 +4,7 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
+  Token: process.env.Token || "OTA2MDgwODgwMjgyNDQ3ODk1.YYTblA.TggVDjsSB-qrK6XcysRFbSx7UPE", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "906080880282447895", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "mC80VIuB_dRkb-ZkV40N_SevPZuivtbF", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
@@ -17,7 +17,7 @@ module.exports = {
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
   Permissions: 2205281600, //Bot Inviting Permissions
-  Website: process.env.Website || "http://localhost", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
+  Website: process.env.Website || "https://discopartizan.herokuapp.com/", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
   
   Presence: {
     status: "online", // You can show online, idle, and dnd
