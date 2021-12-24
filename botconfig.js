@@ -5,8 +5,8 @@ module.exports = {
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
   Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  ClientID: process.env.Discord_ClientID || "906080880282447895", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "mC80VIuB_dRkb-ZkV40N_SevPZuivtbF", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -36,7 +36,7 @@ module.exports = {
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "971973309e294d26b8c493c005303404", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "ed4f8457615a4beeb827e5bfc52167d0", //Spotify Client Secret
   },
 };
